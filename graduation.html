@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batch 2022 - 2026</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    background:linear-gradient(to bottom,#0F172A,#1E293B,#000);
+    font-family:'Poppins',sans-serif;
+    height:100vh;
+    color:white;
+}
+
+/* Stars */
+.stars{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:
+    radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(2px 2px at 70% 20%, white, transparent),
+    radial-gradient(1px 1px at 40% 80%, white, transparent),
+    radial-gradient(2px 2px at 90% 60%, white, transparent),
+    radial-gradient(1px 1px at 10% 70%, white, transparent);
+    animation: twinkle 4s infinite alternate;
+}
+
+@keyframes twinkle{
+    from{opacity:.4;}
+    to{opacity:1;}
+}
+
+/* Scrolling Credits */
+.credits{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    bottom:-100%;
+    animation: scrollUp 35s linear forwards;
+}
+
+@keyframes scrollUp{
+    from{
+        transform:translateY(100%);
+    }
+    to{
+        transform:translateY(-250%);
+    }
+}
+
+h1{
+    color:#FBBF24;
+    font-size:60px;
+    margin-bottom:40px;
+}
+
+p{
+    font-size:28px;
+    line-height:1.8;
+    margin:15px 0;
+}
+
+.highlight{
+    color:#FBBF24;
+    font-weight:bold;
+}
+
+.end{
+    margin-top:80px;
+}
+
+.end h2{
+    font-size:50px;
+    color:#FBBF24;
+}
+
+.end p{
+    font-size:32px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="credits">
+
+    <h1>🎓 Batch 2022 – 2026 🎓</h1>
+
+    <p>There will be no more classes from tomorrow.</p>
+    <p>No more assignments.</p>
+    <p>No more presentations.</p>
+    <p>No more group work.</p>
+
+    <br>
+
+    <p>No more <span class="highlight">"Kal sir class nahi lenge."</span></p>
+    <p>No more <span class="highlight">"Kal class nahi hogi."</span></p>
+    <p>No more <span class="highlight">"Mama, university is on leave today."</span></p>
+
+    <br>
+
+    <p>No more fun and silly fights.</p>
+    <p>No more support galas.</p>
+    <p>No more batch tours.</p>
+
+    <br>
+
+    <p>We will not sit the way we used to sit.</p>
+    <p>No more specific seats beside our friends.</p>
+
+    <br>
+
+    <p>With love, laughter, and unforgettable memories,</p>
+    <p>we have completed four wonderful years</p>
+    <p>of our university life.</p>
+
+    <br><br>
+
+    <p class="highlight">Time flies...</p>
+
+    <br><br><br>
+
+    <div class="end">
+        <h2>Thank You ❤️</h2>
+        <p>Batch 2022 – 2026</p>
+        <p>Government College Women University Sialkot</p>
+        <p>🎓✨</p>
+    </div>
+
+</div>
+
+</body>
+</html>
